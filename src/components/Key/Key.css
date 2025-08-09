@@ -1,0 +1,21 @@
+.btn {
+    background-color:  rgb(90, 88, 88);
+    color: aliceblue;
+    width: 3.5em;
+    height: 3rem;
+    font-size: 1.2rem;
+    border-radius: 15%;
+}
+
+.equal{
+    background-color: rgb(197, 137, 202);
+}
+
+
+.btn:hover{
+    background-color:rgba(66, 57, 57, 0.932);
+}
+
+.equal:hover{
+    background-color: rgb(217, 151, 223); 
+}

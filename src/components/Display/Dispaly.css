@@ -1,0 +1,16 @@
+.display {
+  width: 100%;
+  max-width: 270px;
+  height: 80px;
+  background-color: #0a0a0a;
+  color: white;
+  font-size: 2rem;
+  position: relative;
+}
+.display > span {
+  max-width: 95%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  overflow-x: auto;
+}

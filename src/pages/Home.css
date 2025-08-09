@@ -1,0 +1,10 @@
+.container{
+    width: 95%;
+    max-width: 275px;
+    height: 320px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 8px;
+    border: 2px solid rgb(37, 37, 39);
+    box-shadow: 5px 5px 5px 5px rgb(173, 146, 199);
+}
