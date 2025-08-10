@@ -1,8 +1,4 @@
 .keyboard {
-  width: 11%;
-  max-width: 205px;
-  max-height: 350px;
-  height: 25%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1px;

@@ -1,11 +1,15 @@
 .display {
   width: 100%;
   max-width: 270px;
-  height: 80px;
-  background-color: #0a0a0a;
-  color: white;
+  height: 90px;
+  background-color:rgb(238, 238, 238);
+  border: 2px solid ;
+  color: black;
   font-size: 2rem;
   position: relative;
+ border-radius: 10px;
+ margin-bottom: 10px;
+ 
 }
 .display > span {
   max-width: 95%;
@@ -13,4 +17,5 @@
   bottom: 0;
   right: 0;
   overflow-x: auto;
+ 
 }
