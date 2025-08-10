@@ -1,0 +1,25 @@
+.btn {
+  /* background-color: rgb(137, 138, 196); */
+  width: 3.5em;
+  height: 3rem;
+  font-size: 1.2rem;
+  border-radius: 15%;
+}
+
+.light {
+  background-color: rgb(137, 138, 196);
+}
+
+.light:hover {
+  background-color: rgb(162, 170, 219);
+}
+
+.dark {
+  background-color: rgb(173, 73, 225);
+  color: aliceblue;
+}
+
+.dark:hover {
+  background-color: rgb(235, 211, 248);
+  color: rgb(110, 107, 107);
+}

@@ -2,15 +2,14 @@
   width: 100%;
   max-width: 270px;
   height: 90px;
-  background-color:rgb(238, 238, 238);
   border: 2px solid ;
-  color: black;
   font-size: 2rem;
   position: relative;
  border-radius: 10px;
  margin-bottom: 10px;
  
 }
+
 .display > span {
   max-width: 95%;
   position: absolute;
@@ -18,4 +17,16 @@
   right: 0;
   overflow-x: auto;
  
+}
+
+.light{
+  background-color:rgb(162, 170, 219);
+}
+
+.dark{
+  background-color:rgb(89, 27, 114);
+}
+
+.dark span{
+  color: aliceblue;
 }

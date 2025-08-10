@@ -6,7 +6,7 @@ const Keys = () => {
   return (
     <div className="keyboard">
       {keysArray.map((key) => (
-        <Key key={key} value={key} isEqual={key === "=" && "equal"} />
+        <Key key={key} value={key} />
       ))}
     </div>
   );

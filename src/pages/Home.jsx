@@ -1,12 +1,18 @@
+import { useContext } from "react";
+import { ThemeContext } from "../context/ThemeContext";
 import Keys from "../components/Keys/Keys";
 import Display from "../components/Display/Display";
-import "./Home.css";
+import ToggleSwitch from "../components/ToggleSwitch/ToggleSwitch";
+import styles from './Home.module.css'
 
 const Home = () => {
+
+  const {theme} = useContext(ThemeContext);
   return (
-    <div className="container">
-      <Display />
-      <Keys />
+    <div className={`${styles.container}  ${theme === 'light' ? styles.light : styles.dark}`}>
+      <ToggleSwitch />
+        <Display />
+        <Keys />
     </div>
   );
 };

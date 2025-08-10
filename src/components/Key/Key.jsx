@@ -1,8 +1,10 @@
 import { useContext } from "react";
 import { KeysContext } from "../../context/KeysContext";
-import "./Key.css";
-const Key = ({ value, isEqual }) => {
+import { ThemeContext } from "../../context/ThemeContext";
+import styles from './Key.module.css'
+const Key = ({ value}) => {
   const { setInput, calculateResult } = useContext(KeysContext);
+  const {theme} = useContext(ThemeContext);
 
   const clickHandler = () => {
     if (value === "C") return setInput("");
@@ -25,7 +27,7 @@ const Key = ({ value, isEqual }) => {
     });
   };
   return (
-    <button onClick={clickHandler} className={`btn ${isEqual}`}>
+    <button onClick={clickHandler} className={`${styles.btn} ${theme === 'light' ? styles.light : styles.dark}`}>
       {value}
     </button>
   );
