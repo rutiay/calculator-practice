@@ -7,4 +7,12 @@ body {
   align-items: center;
 }
 
+.light{
+    background-color: rgb(255, 242, 224);
+}
+
+.dark {
+  background-color: rgb(46, 7, 63);
+}
+
 

@@ -5,11 +5,12 @@ import { ThemeContextProvider } from "./context/ThemeContext";
 import App from "./App.jsx";
 import "./index.css";
 
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <ThemeContextProvider>
       <KeysContextProvider>
-        <App />
+          <App />
       </KeysContextProvider>
     </ThemeContextProvider>
   </StrictMode>

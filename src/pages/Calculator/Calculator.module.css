@@ -1,5 +1,7 @@
 .container {
-  height: 400px;
+  position: absolute;
+  width: 15%;
+  height: 42%;
   padding: 10px;
   border-radius: 8px;
   border: 2px solid rgb(37, 37, 39);
