@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { KeysContext } from "../../context/KeysContext";
 import { ThemeContext } from "../../context/ThemeContext";
-import styles from "./Dispaly.module.css";
+import styles from "./Display.module.css";
 
 const Display = () => {
   const { input } = useContext(KeysContext);

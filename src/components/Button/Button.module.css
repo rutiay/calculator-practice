@@ -1,0 +1,47 @@
+.btn {
+  width: 100%;
+  min-width: 3.5em;
+  height: 3.5rem;
+  font-size: 1.2rem;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.light {
+  background-color:	#A3CEF1;
+  color: #111827;
+}
+
+.light:hover {
+  background-color:#72B5E7  ;
+}
+
+.dark {
+  background-color: #3B82F6;
+  color:#E0E7FF ;
+}
+
+.dark:hover {
+  background-color: #2563EB;
+  /* color: rgb(110, 107, 107); */
+}
+
+@media (max-width: 480px) {
+  .btn {
+    height: 3rem;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .btn {
+    height: 4rem;
+    font-size: 1.4rem;
+  }
+}

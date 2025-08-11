@@ -1,0 +1,29 @@
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.keyboard button {
+  min-height: 56px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+}
+
+@media (max-width: 480px) {
+  .keyboard {
+    gap: 0.4rem;
+  }
+  .keyboard button {
+    min-height: 48px;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .keyboard button {
+    min-height: 64px;
+    font-size: 1.4rem;
+  }
+}

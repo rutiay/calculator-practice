@@ -1,18 +1,21 @@
-.app{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+.app {
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
-.light{
-    background-color: rgb(255, 242, 224);
+.light {
+  background-color:#F9FAFB;
 }
 
 .dark {
-  background-color: rgb(46, 7, 63);
+  background-color: #121212;
+}
+
+.app.light, 
+.app.dark {
+  transition: background-color 0.3s ease;
 }

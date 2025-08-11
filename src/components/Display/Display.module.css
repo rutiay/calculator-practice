@@ -1,0 +1,39 @@
+.display {
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: 600;
+  font-size: 2rem;
+  word-break: break-word;
+  user-select: none;
+  overflow-wrap: break-word;
+}
+
+.light {
+  background-color:#E0F2FE;
+  color:#111827;
+}
+
+.dark {
+  background-color: #2E3B55;
+  color:#E0E7FF;
+}
+
+@media (max-width: 480px) {
+  .display {
+    font-size: 1.4rem;
+    min-height: 48px;
+    padding: 0.75rem 1rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .display {
+    font-size: 2.5rem;
+    min-height: 70px;
+    padding: 1.25rem 2rem;
+  }
+}

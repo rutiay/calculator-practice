@@ -1,18 +1,19 @@
-body {
+body, html {
   margin: 0;
-  height: 100vh;
-  width: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 0;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: var(--background-color);
+  box-sizing: border-box;
 }
 
-.light{
-    background-color: rgb(255, 242, 224);
+.app.light {
+  --background-color: rgb(255, 242, 224);
 }
 
-.dark {
-  background-color: rgb(46, 7, 63);
+.app.dark {
+  --background-color: rgb(46, 7, 63);
 }
+
 
 
